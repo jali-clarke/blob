@@ -1,7 +1,7 @@
 # blob
 simple manipulation of raw memory
 
-This was a cute little project testing type-driven manipulation of data at the byte level using C++11.  The main reason this was created was to really test my (somewhat intermediate, at the time) understanding of what was going on at a very low level in memory.  The Blob class template represents a block of raw data which can be read from or written to simply by specifying the position to read from / write to as well as the type of data being manipulated.
+This was a cute little project testing type-driven manipulation of data at the byte level using C++11.  The main reason this was created was to really test my (somewhat beginner, at the time) understanding of what was going on at a very low level in memory.  The Blob class template represents a block of raw data which can be read from or written to simply by specifying the position to read from / write to as well as the type of data being manipulated.
 
 I developed a greater appreciation for pointers, pointer arithmetic, and references, as well as how to freely - and admittedly, unsafely - convert between pointer and reference types.  Thankfully, the unsafe operations are done somewhat safely behind the guise of the Blob class.
 
